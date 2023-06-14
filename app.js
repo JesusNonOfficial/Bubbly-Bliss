@@ -64,11 +64,11 @@ function autoplaySlider() {
       left: scrollPosition,
       behavior: 'smooth',
     });
-  }, 5000); // Adjust the autoplay interval (in milliseconds) as desired
+  }, 50000000); // Adjust the autoplay interval (in milliseconds) as desired
 }
 
 // Call the autoplay function to start autoplaying the slider
-autoplaySlider();
+// autoplaySlider();
 
 // Restart autoplay when a navigation link is clicked
 slider.addEventListener('click', () => {
